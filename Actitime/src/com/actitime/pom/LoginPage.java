@@ -6,13 +6,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-
+                 //This is the username textfild locator
 	@FindBy(id="username")
 	private  WebElement untbx;
-	
+	//This is the password textfiled locator
 	@FindBy(name="pwd")
 	private WebElement pwtbx;
-	
+	//This is the Login buttion locator
 	@FindBy(xpath="//div[.='Login ']")
 	private WebElement lgBtn;
 	
